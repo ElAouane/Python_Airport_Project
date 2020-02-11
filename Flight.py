@@ -7,7 +7,7 @@ class Flight:
         # self.origin = origin
         # self.destination = destination
         # self.datetime = datetime
-        self.available_flight = [flight_number, origin, destination, datetime]
+        self.available_flight = [flight_number + ' ' + ' ' + origin + ' ' + destination + ' ' + datetime]
 
     def show_available_flight(self):
         for item in self.available_flight:

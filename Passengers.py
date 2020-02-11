@@ -6,7 +6,7 @@ class Passengers(People):
     def __init__(self, id, name, passport):
         super().__init__(id, name)
         self.__passport = passport
-        self.available_pass = [id, name, passport]
+        self.available_pass = [id + ' '+ name + ' ' + passport]
 
 
     def show_passengers(self):
